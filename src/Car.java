@@ -45,4 +45,12 @@ public class Car {
 		return("Color: Red, Speed: 0");
 	}
 
+	public void decelerate(int amount) {
+		if(amount > 0){
+			this.speed -= amount;
+		}else{
+			this.speed = 0;
+		}
+	}
+
 }
