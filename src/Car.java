@@ -53,6 +53,14 @@ public class Car {
 		}
 	}
 	
+	public void cannotDecelerateBeyondZero(int amount) {
+		int limit = 0;
+		if (amount >= limit) {
+			this.speed = limit;
+		} else {
+			this.speed += amount;
+		}
 
+	}
 
 }
